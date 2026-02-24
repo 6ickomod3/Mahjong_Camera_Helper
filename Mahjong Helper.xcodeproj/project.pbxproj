@@ -6,6 +6,9 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6DE694532F4D8E010014F524 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -400,6 +403,7 @@
 				DEVELOPMENT_TEAM = FJ47H5G4MH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Mahjong Helper needs camera access to identify tiles.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +432,7 @@
 				DEVELOPMENT_TEAM = FJ47H5G4MH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Mahjong Helper needs camera access to identify tiles.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
