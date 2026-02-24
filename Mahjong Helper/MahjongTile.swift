@@ -230,9 +230,10 @@ extension MahjongTile {
         "4z": (.wind, .four),   // 北
 
         // 箭牌 (Dragons)
-        "5z": (.dragon, .one),    // 中
-        "6z": (.dragon, .two),    // 發
-        "7z": (.dragon, .three),  // 白
+        // nikmomo/Mahjong-YOLO convention: 5z=White, 6z=Green, 7z=Red
+        "5z": (.dragon, .three),  // 白 (White Dragon)
+        "6z": (.dragon, .two),    // 發 (Green Dragon)
+        "7z": (.dragon, .one),    // 中 (Red Dragon)
     ]
 }
 
